@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="CursoCucumber" tests="9" started="9" failures="0" errors="0" ignored="0">
+  <testsuite name="Runner" time="0.024">
+    <testsuite name="Funcionalidade: Aprender Cucumber" time="0.024">
+      <testsuite name="Cenário: Deve executar especificação" time="0.004">
+        <testcase name="Dado que criei o arquivo corretamente" classname="Cenário: Deve executar especificação" time="0.003"/>
+        <testcase name="Quando execultá-lo" classname="Cenário: Deve executar especificação" time="0.0"/>
+        <testcase name="Então a especificação deve finalizar com sucesso" classname="Cenário: Deve executar especificação" time="0.001"/>
+      </testsuite>
+      <testsuite name="Cenário: Deve incrementar contator" time="0.002">
+        <testcase name="Dado que o valor do contador é 15" classname="Cenário: Deve incrementar contator" time="0.001"/>
+        <testcase name="Quando eu incrimentar em 3" classname="Cenário: Deve incrementar contator" time="0.001"/>
+        <testcase name="Então o valor do contador será 18" classname="Cenário: Deve incrementar contator" time="0.0"/>
+      </testsuite>
+      <testsuite name="Cenário: Deve calcular atraso na entrega" time="0.007">
+        <testcase name="Dado que a entrega é dia 05/04/2018" classname="Cenário: Deve calcular atraso na entrega" time="0.0"/>
+        <testcase name="Quando a entrega atrasar em 2 dias" classname="Cenário: Deve calcular atraso na entrega" time="0.004"/>
+        <testcase name="Então a entrega será efetuada em 07/04/2018" classname="Cenário: Deve calcular atraso na entrega" time="0.003"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

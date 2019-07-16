@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner_alugarfilme" project="CursoCucumber" tests="21" started="21" failures="0" errors="0" ignored="0">
+  <testsuite name="br.ce.wcaquino.runners.Runner_alugarfilme" time="0.012">
+    <testsuite name="Funcionalidade: Locadora" time="0.012">
+      <testsuite name="Cenário: Alugar filme com sucesso" time="0.003">
+        <testcase name="Dado um filme com estoque de 2 unidades" classname="Cenário: Alugar filme com sucesso" time="0.0"/>
+        <testcase name="E que o preço de aluguel seja R$3" classname="Cenário: Alugar filme com sucesso" time="0.001"/>
+        <testcase name="Quando alugar" classname="Cenário: Alugar filme com sucesso" time="0.001"/>
+        <testcase name="Então o preço do aluguel será R$3" classname="Cenário: Alugar filme com sucesso" time="0.001"/>
+        <testcase name="E data de entrega será no dia seguinte" classname="Cenário: Alugar filme com sucesso" time="0.0"/>
+        <testcase name="E o estoque do filme será 1 unidade" classname="Cenário: Alugar filme com sucesso" time="0.0"/>
+      </testsuite>
+      <testsuite name="Cenário: Alugar filme sem estoque" time="0.001">
+        <testcase name="Dado um filme com estoque de 0 unidades" classname="Cenário: Alugar filme sem estoque" time="0.0"/>
+        <testcase name="Quando alugar" classname="Cenário: Alugar filme sem estoque" time="0.0"/>
+        <testcase name="Então não será possível alugar por falta de estoque" classname="Cenário: Alugar filme sem estoque" time="0.0"/>
+        <testcase name="E o estoque do filme será 0 unidade" classname="Cenário: Alugar filme sem estoque" time="0.001"/>
+      </testsuite>
+      <testsuite name="Esquema do Cenário: Dar condição de aluguel" time="0.001">
+        <testsuite name="Exemplos:" time="0.001">
+          <testsuite name="| 2 | 3 | 3 | 1 |" time="0.001">
+            <testcase name="Dado um filme com estoque de 2 unidades" classname="| 2 | 3 | 3 | 1 |" time="0.0"/>
+            <testcase name="E que o preço de aluguel seja R$3" classname="| 2 | 3 | 3 | 1 |" time="0.0"/>
+            <testcase name="Quando alugar" classname="| 2 | 3 | 3 | 1 |" time="0.0"/>
+            <testcase name="Então o preço do aluguel será R$3" classname="| 2 | 3 | 3 | 1 |" time="0.0"/>
+            <testcase name="E data de entrega será no dia seguinte" classname="| 2 | 3 | 3 | 1 |" time="0.001"/>
+            <testcase name="E o estoque do filme será 1 unidade" classname="| 2 | 3 | 3 | 1 |" time="0.0"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Cenário: Alugar filme com sucesso" time="0.003">
+        <testcase name="Dado um filme" classname="Cenário: Alugar filme com sucesso" time="0.0"/>
+        <testcase name="Quando alugar" classname="Cenário: Alugar filme com sucesso" time="0.0"/>
+        <testcase name="Então o preço do aluguel será R$3" classname="Cenário: Alugar filme com sucesso" time="0.001"/>
+        <testcase name="E data de entrega será no dia seguinte" classname="Cenário: Alugar filme com sucesso" time="0.0"/>
+        <testcase name="E o estoque do filme será 1 unidade" classname="Cenário: Alugar filme com sucesso" time="0.002"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

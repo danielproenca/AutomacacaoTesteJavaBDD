@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="CursoCucumber" tests="3" started="3" failures="0" errors="0" ignored="3">
+  <testsuite name="Runner" time="0.0">
+    <testsuite name="Funcionalidade: Aprender Cucumber" time="0.001">
+      <testsuite name="Cenário: Deve executar especificação" time="0.001" incomplete="true">
+        <skipped/>
+        <testcase name="Dado que criei o arquivo corretamente" classname="Cenário: Deve executar especificação" time="0.001" ignored="true"/>
+        <testcase name="Quando execultá-lo" classname="Cenário: Deve executar especificação" time="0.0" ignored="true"/>
+        <testcase name="Então a especificação deve finalizar com sucesso" classname="Cenário: Deve executar especificação" time="0.0" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

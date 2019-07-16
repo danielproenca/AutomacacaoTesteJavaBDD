@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner_alugarfilme" project="CursoCucumber" tests="6" started="6" failures="0" errors="2" ignored="1">
+  <testsuite name="br.ce.wcaquino.runners.Runner_alugarfilme" time="0.008">
+    <testsuite name="Funcionalidade: Locadora" time="0.008">
+      <testsuite name="Cenário: Alugar filme com sucesso" time="0.004" incomplete="true">
+        <error>java.lang.NullPointerException&#13;
+	at java.util.Calendar.setTime(Unknown Source)&#13;
+	at br.ce.wcaquino.steps.alugar_filme_steps.dataDeEntregaSeráNoDiaSeguinte(alugar_filme_steps.java:49)&#13;
+	at ✽.E data de entrega será no dia seguinte(src/test/resources/features/locadora.feature:12)&#13;
+&#13;
+</error>
+        <testcase name="Dado um filme com estoque de 2 unidades" classname="Cenário: Alugar filme com sucesso" time="0.0"/>
+        <testcase name="E que o preço de aluguel seja R$3" classname="Cenário: Alugar filme com sucesso" time="0.0"/>
+        <testcase name="Quando alugar" classname="Cenário: Alugar filme com sucesso" time="0.002"/>
+        <testcase name="Então o preço do aluguel será R$3" classname="Cenário: Alugar filme com sucesso" time="0.001"/>
+        <testcase name="E data de entrega será no dia seguinte" classname="Cenário: Alugar filme com sucesso" time="0.001">
+          <error>java.lang.NullPointerException&#13;
+	at java.util.Calendar.setTime(Unknown Source)&#13;
+	at br.ce.wcaquino.steps.alugar_filme_steps.dataDeEntregaSeráNoDiaSeguinte(alugar_filme_steps.java:49)&#13;
+	at ✽.E data de entrega será no dia seguinte(src/test/resources/features/locadora.feature:12)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="E o estoque do filme será 1 unidade" classname="Cenário: Alugar filme com sucesso" time="0.003" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

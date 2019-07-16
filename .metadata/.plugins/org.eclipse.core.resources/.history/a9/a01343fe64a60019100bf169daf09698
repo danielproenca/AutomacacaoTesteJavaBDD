@@ -1,0 +1,23 @@
+package br.ce.wcaquino.main;
+
+import br.ce.wcaquino.steps.Date;
+
+public class NotaAluguel {
+	private int preco;
+
+	public int getPreco() {
+		return preco;
+	}
+
+	public void setPreco(int preco) {
+		this.preco = preco;
+	}
+
+	public Date getDataEntrega() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+
+}

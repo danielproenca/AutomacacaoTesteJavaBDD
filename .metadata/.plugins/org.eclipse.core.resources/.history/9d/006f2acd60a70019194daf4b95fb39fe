@@ -1,0 +1,11 @@
+package br.ce.wcaquino.utils;
+
+import java.util.Date;
+
+public class DateUtils {
+	
+	public static Date obterData(int dias){
+		
+	}
+
+}

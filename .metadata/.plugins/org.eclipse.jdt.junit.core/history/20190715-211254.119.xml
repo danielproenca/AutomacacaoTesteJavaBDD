@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner_alugarfilme" project="CursoCucumber" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="br.ce.wcaquino.runners.Runner_alugarfilme" time="0.004">
+    <testsuite name="Funcionalidade: Locadora" time="0.004">
+      <testsuite name="Cenário: Alugar filme com sucesso" time="0.004">
+        <testcase name="Dado um filme com estoque de 2 unidades" classname="Cenário: Alugar filme com sucesso" time="0.0"/>
+        <testcase name="E que o preço de aluguel seja R$3" classname="Cenário: Alugar filme com sucesso" time="0.0"/>
+        <testcase name="Quando alugar" classname="Cenário: Alugar filme com sucesso" time="0.002"/>
+        <testcase name="Então o preço do aluguel será R$3" classname="Cenário: Alugar filme com sucesso" time="0.0"/>
+        <testcase name="E data de entrega será no dia seguinte" classname="Cenário: Alugar filme com sucesso" time="0.0"/>
+        <testcase name="E o estoque do filme será 1 unidade" classname="Cenário: Alugar filme com sucesso" time="0.002"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

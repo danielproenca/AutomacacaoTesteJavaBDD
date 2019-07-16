@@ -1,0 +1,16 @@
+# language: pt
+Funcionalidade: Aprender Cucumber
+	Como um Aluno
+	Eu quero aprender utilizar o cucumber
+	Para que eu possa automatizar critérios de aceitação
+
+Cenário: Deve executar especificação
+	Dado que criei o arquivo corretamente
+	Quando execultá-lo
+	Então a especificação deve finalizar com sucesso
+
+	
+Cenário: Deve incrementar contator
+ Dado que o valor do contador é 15
+ Quando eu incrimentar em 5
+ Então o valor do contador será 18

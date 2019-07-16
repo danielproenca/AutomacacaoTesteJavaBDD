@@ -1,0 +1,47 @@
+import org.junit.Assert;
+
+import cucumber.api.java.pt.Dado;
+import cucumber.api.java.pt.Então;
+import cucumber.api.java.pt.Quando;
+
+public class AprenderCucumber {
+	@Dado("^que criei o arquivo corretamente$")
+	public void queCrieiOArquivoCorretamente() throws Throwable {
+
+	}
+
+	@Quando("^execultá-lo$")
+	public void execultáLo() throws Throwable {
+
+	}
+
+	@Então("^a especificação deve finalizar com sucesso$")
+	public void aEspecificaçãoDeveFinalizarComSucesso() throws Throwable {
+
+	}
+	
+	private int contador = 0;
+	
+	@Dado("^que o valor do contador é (\\d+)$")
+	public void queOValorDoContadorÉ(int arg1) throws Throwable {
+		System.out.println(contador);
+		contador = arg1;
+		System.out.println(contador);
+	}
+
+	@Quando("^eu incrimentar em (\\d+)$")
+	public void euIncrimentarEm(int arg1) throws Throwable {
+		System.out.println(contador);
+		contador = contador + arg1;
+		System.out.println(contador);
+	}
+
+	@Então("^o valor do contador será (\\d+)$")
+	public void oValorDoContadorSerá(int arg1) throws Throwable {
+		System.out.print(arg1);
+		System.out.print(contador);
+		//Assert.assertTrue(contador == arg1);
+		//Assert.assertEquals(arg1, contador);
+		
+	}
+}

@@ -1,0 +1,15 @@
+package br.ce.wcaquino.main;
+
+import java.util.Calendar;
+
+public class AlguelService {
+
+	public NotaAluguel alugar(Filme filme) {
+		NotaAluguel nota_aluguel = new NotaAluguel();
+		nota_aluguel.setPreco(Filme.getAluguel());
+		
+		Calendar cal = Calendar.getInstance();
+		nota_aluguel.setDataEntrega();
+		return nota_aluguel;
+	}	
+}

@@ -1,0 +1,9 @@
+package br.ce.wcaquino.utils;
+
+public class DateUtils {
+	
+	public static Date obterData(int dias){
+		
+	}
+
+}

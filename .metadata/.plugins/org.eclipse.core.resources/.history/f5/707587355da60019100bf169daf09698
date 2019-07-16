@@ -1,0 +1,11 @@
+# language: pt
+Funcionalidade: Locadora
+	Como um usúario
+	Eu quero cadastrar aluguéis de filmes
+	Para controlar preços e datas de entrega
+	
+Cenário: Alugar filme com sucesso
+
+Cenário: Alugar filme sem estoque
+
+Cenário: Pontuação por categoria  

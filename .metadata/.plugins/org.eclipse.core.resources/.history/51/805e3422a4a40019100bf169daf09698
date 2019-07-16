@@ -1,0 +1,23 @@
+import cucumber.api.java.pt.Quando;
+import cucumber.api.PendingException;
+import cucumber.api.java.pt.Dado;
+import cucumber.api.java.pt.Então;
+
+public class AprenderCucumber {
+	@Dado("^que criei o arquivo corretamente$")
+	public void queCrieiOArquivoCorretamente() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Quando("^execultá-lo$")
+	public void execultáLo() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Então("^a especificação deve finalizar com sucesso$")
+	public void aEspecificaçãoDeveFinalizarComSucesso() throws Throwable {
+
+	}
+}

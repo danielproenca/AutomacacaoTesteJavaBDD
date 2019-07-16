@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner_alugarfilme" project="CursoCucumber" tests="1" started="0" failures="0" errors="0" ignored="0">
+  <testsuite name="br.ce.wcaquino.runners.Runner_alugarfilme" incomplete="true">
+    <testsuite name="Funcionalidade: Locadora" incomplete="true">
+      <testcase name="Esquema do Cenário: Dar condição de aluguel" classname="Esquema do Cenário: Dar condição de aluguel" incomplete="true"/>
+    </testsuite>
+  </testsuite>
+</testrun>

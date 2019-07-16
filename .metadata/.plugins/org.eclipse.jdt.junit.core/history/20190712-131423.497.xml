@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="CursoCucumber" tests="6" started="6" failures="0" errors="2" ignored="0">
+  <testsuite name="Runner" time="0.015">
+    <testsuite name="Funcionalidade: Aprender Cucumber" time="0.015">
+      <testsuite name="Cenário: Deve executar especificação" time="0.002">
+        <testcase name="Dado que criei o arquivo corretamente" classname="Cenário: Deve executar especificação" time="0.001"/>
+        <testcase name="Quando execultá-lo" classname="Cenário: Deve executar especificação" time="0.001"/>
+        <testcase name="Então a especificação deve finalizar com sucesso" classname="Cenário: Deve executar especificação" time="0.0"/>
+      </testsuite>
+      <testsuite name="Cenário: Deve incrementar contator" time="0.008" incomplete="true">
+        <error>java.lang.RuntimeException&#13;
+	at AprenderCucumber.oValorDoContadorSerá(AprenderCucumber.java:45)&#13;
+	at ✽.Então o valor do contador será 18(aprender_cucumber.feature:16)&#13;
+&#13;
+</error>
+        <testcase name="Dado que o valor do contador é 15" classname="Cenário: Deve incrementar contator" time="0.002"/>
+        <testcase name="Quando eu incrimentar em 3" classname="Cenário: Deve incrementar contator" time="0.004"/>
+        <testcase name="Então o valor do contador será 18" classname="Cenário: Deve incrementar contator" time="0.002">
+          <error>java.lang.RuntimeException&#13;
+	at AprenderCucumber.oValorDoContadorSerá(AprenderCucumber.java:45)&#13;
+	at ✽.Então o valor do contador será 18(aprender_cucumber.feature:16)&#13;
+&#13;
+</error>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

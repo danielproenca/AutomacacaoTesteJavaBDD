@@ -1,0 +1,18 @@
+package br.ce.wcaquino.main;
+
+public class Filme {
+	
+	private int estoque;
+	private int preco;
+	
+	public void setEstoque(int qtd_estoque) {
+		this.estoque = qtd_estoque;
+	}
+
+	public void setAluguel(int preco) {
+		this.preco = preco
+		
+	}
+	
+
+}

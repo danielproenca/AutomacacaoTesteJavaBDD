@@ -1,0 +1,10 @@
+package br.ce.wcaquino.main;
+
+public class AlguelService {
+
+	public NotaAluguel alugar(Filme filme) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

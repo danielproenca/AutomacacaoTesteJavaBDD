@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner_alugarfilme" project="CursoCucumber" tests="10" started="10" failures="0" errors="2" ignored="2">
+  <testsuite name="br.ce.wcaquino.runners.Runner_alugarfilme" time="0.009">
+    <testsuite name="Funcionalidade: Locadora" time="0.009">
+      <testsuite name="Cenário: Alugar filme com sucesso" time="0.002">
+        <testcase name="Dado um filme com estoque de 2 unidades" classname="Cenário: Alugar filme com sucesso" time="0.0"/>
+        <testcase name="E que o preço de aluguel seja R$3" classname="Cenário: Alugar filme com sucesso" time="0.0"/>
+        <testcase name="Quando alugar" classname="Cenário: Alugar filme com sucesso" time="0.002"/>
+        <testcase name="Então o preço do aluguel será R$3" classname="Cenário: Alugar filme com sucesso" time="0.0"/>
+        <testcase name="E data de entrega será no dia seguinte" classname="Cenário: Alugar filme com sucesso" time="0.0"/>
+        <testcase name="E o estoque do filme será 1 unidade" classname="Cenário: Alugar filme com sucesso" time="0.0"/>
+      </testsuite>
+      <testsuite name="Cenário: Alugar filme sem estoque" time="0.003" incomplete="true">
+        <error>java.lang.RuntimeException&#13;
+	at br.ce.wcaquino.main.AlguelService.alugar(AlguelService.java:9)&#13;
+	at br.ce.wcaquino.steps.alugar_filme_steps.alugar(alugar_filme_steps.java:33)&#13;
+	at ✽.Quando alugar(src/test/resources/features/locadora.feature:17)&#13;
+&#13;
+</error>
+        <testcase name="Dado um filme com estoque de 0 unidades" classname="Cenário: Alugar filme sem estoque" time="0.001"/>
+        <testcase name="Quando alugar" classname="Cenário: Alugar filme sem estoque" time="0.001">
+          <error>java.lang.RuntimeException&#13;
+	at br.ce.wcaquino.main.AlguelService.alugar(AlguelService.java:9)&#13;
+	at br.ce.wcaquino.steps.alugar_filme_steps.alugar(alugar_filme_steps.java:33)&#13;
+	at ✽.Quando alugar(src/test/resources/features/locadora.feature:17)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="Então não será possível alugar por falta de estoque" classname="Cenário: Alugar filme sem estoque" time="0.001" ignored="true"/>
+        <testcase name="E o estoque do filme será 0 unidade" classname="Cenário: Alugar filme sem estoque" time="0.002" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

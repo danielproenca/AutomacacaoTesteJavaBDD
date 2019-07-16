@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="CursoCucumber" tests="9" started="9" failures="2" errors="0" ignored="0">
+  <testsuite name="Runner" time="0.017">
+    <testsuite name="Funcionalidade: Aprender Cucumber" time="0.017">
+      <testsuite name="Cenário: Deve executar especificação" time="0.001">
+        <testcase name="Dado que criei o arquivo corretamente" classname="Cenário: Deve executar especificação" time="0.0"/>
+        <testcase name="Quando execultá-lo" classname="Cenário: Deve executar especificação" time="0.0"/>
+        <testcase name="Então a especificação deve finalizar com sucesso" classname="Cenário: Deve executar especificação" time="0.0"/>
+      </testsuite>
+      <testsuite name="Cenário: Deve incrementar contator" time="0.004">
+        <testcase name="Dado que o valor do contador é 15" classname="Cenário: Deve incrementar contator" time="0.001"/>
+        <testcase name="Quando eu incrimentar em 3" classname="Cenário: Deve incrementar contator" time="0.003"/>
+        <testcase name="Então o valor do contador será 18" classname="Cenário: Deve incrementar contator" time="0.0"/>
+      </testsuite>
+      <testsuite name="Cenário: Deve calcular atraso na entrega" time="0.005" incomplete="true">
+        <failure>
+          <expected>07/04/2018</expected>
+          <actual>05/12/2017</actual>org.junit.ComparisonFailure: expected:&lt;0[7/04/2018]&gt; but was:&lt;0[5/12/2017]&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:115)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:144)&#13;
+	at AprenderCucumber.aEntregaSeráEfetuadaEm(AprenderCucumber.java:75)&#13;
+	at ✽.Então a entrega será efetuada em 07/04/2018(aprender_cucumber.feature:21)&#13;
+&#13;
+</failure>
+        <testcase name="Dado que a entrega é dia 05/04/2018" classname="Cenário: Deve calcular atraso na entrega" time="0.0"/>
+        <testcase name="Quando a entrega atrasar em 2 dias" classname="Cenário: Deve calcular atraso na entrega" time="0.005"/>
+        <testcase name="Então a entrega será efetuada em 07/04/2018" classname="Cenário: Deve calcular atraso na entrega" time="0.0">
+          <failure>
+            <expected>07/04/2018</expected>
+            <actual>05/12/2017</actual>org.junit.ComparisonFailure: expected:&lt;0[7/04/2018]&gt; but was:&lt;0[5/12/2017]&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:115)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:144)&#13;
+	at AprenderCucumber.aEntregaSeráEfetuadaEm(AprenderCucumber.java:75)&#13;
+	at ✽.Então a entrega será efetuada em 07/04/2018(aprender_cucumber.feature:21)&#13;
+&#13;
+</failure>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,11 @@
+package br.ce.wcaquino.main;
+
+public class AlguelService {
+
+	public NotaAluguel alugar(Filme filme) {
+		NotaAluguel nota_aluguel = new NotaAluguel();
+		nota_aluguel.setPreco(Filme.getAluguel());
+		nota_aluguel.setDataEntrega();
+		return nota_aluguel;
+	}	
+}

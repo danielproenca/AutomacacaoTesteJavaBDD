@@ -1,0 +1,11 @@
+package br.ce.wcaquino.main;
+
+public class Filme {
+
+	public void setEstoque() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}

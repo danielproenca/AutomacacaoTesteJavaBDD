@@ -1,0 +1,42 @@
+package br.ce.wcaquino.steps;
+
+import br.ce.wcaquino.main.Filme;
+import cucumber.api.java.pt.Dado;
+import cucumber.api.java.pt.Então;
+import cucumber.api.java.pt.Quando;
+
+public class alugar_filme_steps {
+	
+	private Filme filme = new Filme();
+	
+	@Dado("^um filme com estoque de (\\d+) unidades$")
+	public void umFilmeComEstoqueDeUnidades(int qtd_estoque) throws Throwable {
+		filme.setEstoque(qtd_estoque);
+	}
+
+	@Dado("^que o preço de aluguel seja R\\$(\\d+)$")
+	public void queOPreçoDeAluguelSejaR$(int preco) throws Throwable {
+		
+		
+	}
+
+	@Quando("^alugar$")
+	public void alugar() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	}
+
+	@Então("^o preço do aluguel será R\\$(\\d+)$")
+	public void oPreçoDoAluguelSeráR$(int arg1) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	}
+
+	@Então("^data de entrega será no dia seguinte$")
+	public void dataDeEntregaSeráNoDiaSeguinte() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	}
+
+	@Então("^o estoque do filme será (\\d+) unidade$")
+	public void oEstoqueDoFilmeSeráUnidade(int arg1) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	}	
+}

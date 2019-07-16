@@ -1,0 +1,11 @@
+# Hitória
+Feature: Aprender Cucumber
+	Como um Aluno
+	Eu quero aprender utilizar o cucumber
+	Para que eu possa automatizar critérios de aceitação
+
+#Cenário
+
+Dado que criei o arquivo corretamente
+Quando execultá-lo
+Então a especificação deve finalizar com sucesso
